@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#canvas1{
+    position: absolute;
+
+}
+.controls{
+    position: absolute;
+    z-index: 100;
+}
+img{
+    display: none;
+}
+button{
+    background: rgb(59, 184, 151);
+    
+    width: 100px;
+    height: 50px;
+    border-radius: 30%;
+    border-width: 0px;
+}

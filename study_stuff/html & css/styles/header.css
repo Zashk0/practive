@@ -1,0 +1,128 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom-width:1px ;
+    border-bottom-color:gray ;
+        
+}
+.left{
+
+    display: flex;
+    align-items: center;
+}
+.centre{
+    flex:1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu{
+    
+    height: 22px;
+    margin-right: 20px;
+   margin-left: 24px;
+}
+.logo{
+    height: 20px;
+    
+}
+.search-button{
+    height: 40px;
+    width: 66px;
+    background-color:  rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    margin-left: -1;
+    margin-right: 10px;
+}   
+.microphone{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    border-width: 0px;
+    transition: 0.15s;
+}
+.search-bar{    
+        
+    font-size: 16px;
+    padding-left: 22px;
+    flex: 1;
+    height: 36px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(171, 168, 168);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.search-bar::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+ 
+}
+.search-icon{
+    height: 25px;
+    margin-top: 5px;
+}
+.microphone-icon{
+    height: 25px;
+    margin-top: 5px;
+}
+.upload-button{
+    height: 40px;
+    width: 40px;
+    border-width: 0px;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 20px;
+    transition: 0.15s;
+}
+.notification-button{
+    height: 40px;
+    width: 40px;
+    border-width: 0px;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: 0.15s;
+}
+.upload-button:active{
+    border-width:1px;
+    
+    border-color: black;
+    background-color: lightgray;
+}
+.notification-button:active{
+    border-width:1px;
+    border-color: black;
+    background-color: lightgray;
+}
+.microphone:active{
+    border-width:1px;
+    border-color: black;
+    background-color: lightgray;
+}
+
+.user-pic{
+    height: 36px;
+    width: 36px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    align-items: top;
+    padding-top: 10px;
+    }

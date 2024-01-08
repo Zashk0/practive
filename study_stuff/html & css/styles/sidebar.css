@@ -1,0 +1,15 @@
+.sidebar{
+    position: fixed;
+    width: 72px;
+    background-color: white;
+    border-right-color:black;
+    border-right-width: 5px;
+    bottom: 0px;
+    top: 55px;
+    left: 0px;
+}
+.home{
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+}

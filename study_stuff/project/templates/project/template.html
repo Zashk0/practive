@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+
+{% block content %}
+{% for project in projects %}
+<tr>
+    <td><a href="{%  url 'home' %}">{{project.name}}</a></td>
+    <td><a href="{% url 'update-form'  project.id  %}">Edit</a></td>
+    <td><a href="{% url 'delete'  project.id  %}">Delete</a></td>
+</tr>
+{% endfor %}
+{% endblock content %}
